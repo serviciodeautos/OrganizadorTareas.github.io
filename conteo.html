@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conteo.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Conteo</title>
+</head>
+<body>
+    
+		<header>
+			<h1>Contador de actividades</h1>
+
+			<div class="container-icon">
+                <div class="container-cart-icon">
+                    
+                    <svg  class="icon-cart" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                      </svg>
+                      
+
+
+
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+                </div>
+				
+
+
+
+				<div class="container-cart-products hidden-cart">
+
+                    <div class="row-product">
+                        <div class="cart-product">
+
+                            <div class="info-cart-product">
+                                <span class="cantidad-producto-carrito"></span>
+                                <p class="titulo-producto-carrito">No hay actividades</p>
+                                <span class="precio-producto-carrito"></span>
+                            </div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="icon-close"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+					
+                    <div class="cart-total">
+                        <h3>Tiene actividades:</h3>
+                        <span class="total-pagar"></span>
+                    </div>
+				</div>
+			</div>
+		</header>
+
+
+
+
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://plustatic.com/3032/conversions/fisica-cuantica-social.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Fisica</h2>
+					<p class="price">1</p>
+					<button class="btn-add-cart">Añadir a tareas</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://previews.123rf.com/images/belchonoksun/belchonoksun1609/belchonoksun160900130/66460159-matem%C3%A1ticas-vector-sin-patr%C3%B3n-educativo-con-f%C3%B3rmulas-tareas-parcelas-c%C3%A1lculos-y-figuras.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Matematicas</h2>
+					<p class="price">1</p>
+					<button class="btn-add-cart">Añadir a tareas</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="https://st.depositphotos.com/1777684/1371/v/450/depositphotos_13717252-stock-illustration-hand-draw-chemistry-on-background.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Quimica</h2>
+					<p class="price">1</p>
+					<button class="btn-add-cart">Añadir a tareas</button>
+				</div>
+			</div>
+
+
+			<div class="item">
+				<figure>
+					<img
+						src="https://inscastelli-cha.infd.edu.ar/sitio/wp-content/uploads/2021/12/biologia-edited-1.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Biologia</h2>
+					<p class="price">1</p>
+					<button class="btn-add-cart">Añadir a tareas</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://sabersenaccio.iec.cat/wp-content/uploads/2021/11/2.7.1.0.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Literatura</h2>
+					<p class="price">1</p>
+					<button class="btn-add-cart">Añadir a tareas</button>
+				</div>
+			</div>
+
+            <div class="item">
+            <figure>
+                <img
+                    src="https://www.dicyt.com/data/39/35639.jpg"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Artes</h2>
+                <p class="price">1</p>
+                <button class="btn-add-cart">Añadir a tareas</button>
+            </div>
+        </div>
+
+		</div>
+        <br>
+
+
+<div class="galois" id="galois">
+    <img src="galois.png" class="yop">
+</div>
+
+<script src="conte2.js"></script>
+
+    <script src="conteo.js"></script>
+</body>
+</html>

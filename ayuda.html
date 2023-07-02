@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Organizador de tareas </title>
+</head>
+<body>
+    <div class="principal">
+		<div class="wrap">
+			<form class="formulario" action="">
+				<textarea name="tarea" id="tareaInput" cols="30" rows="10" placeholder="Escribe..." class="normal"></textarea>
+				<br>
+				<input type="datetime-local" id="tarea2Input" name="fecha" class="normal">
+                <br>
+                <br>
+				<center><button  id="botom" class="botom">Agregar</button></center>
+				<br>
+			</form>
+		</div>
+	</div>
+<br>
+
+
+<br>
+	<div class="tareas">
+		<div class="wrap2">
+			<ul class="lista" id="lista">
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="ima" id="buttonn">
+		<img src="galois.png" class="imagen">
+	</div>
+
+<script src="dibujo.js"></script>
+    <script src="fun.js"></script>
+	
+</body>
+</html>

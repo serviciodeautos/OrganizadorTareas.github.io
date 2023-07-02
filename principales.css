@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpaperset.com/w/full/d/e/1/96048.jpg);
+	background-size: cover;
+	margin-top: -150px;
+}
+
+.banner{
+	border: 2px solid white;
+	margin-top: 150px;
+	background-color: rgba(255, 255, 255, 0.185);
+	position: absolute;
+	width: 300px;
+	height: 100%;
+}
+
+.info{
+	font-family: Georgia, 'Times New Roman', Times, serifs;
+	background-color: rgba(185, 138, 9, 0.877);
+	color: white;
+	padding: 7px;
+	width: 270px;
+	margin-top: 13px;
+	margin-left: 15px;
+}
+
+.titulo{
+	size: 27px;
+	font-style: italic;
+}
+
+.botones{
+	width: 50%;
+	
+	height: 500px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 200px;
+	
+}
+.enlace1{
+	padding: 1em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: bisque;
+	width: 35%;
+	height: 70px;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 70px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.enlace1:hover{
+	background-color: rgb(158, 96, 4);
+	color: aliceblue;
+	cursor: pointer;
+}
+.galois:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
